@@ -211,13 +211,7 @@ the MIT License. See License.txt in the project root for license information. --
 			<version>1.54</version>
 			<scope>test</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
-		<dependency>
-			<groupId>commons-io</groupId>
-			<artifactId>commons-io</artifactId>
-			<version>2.6</version>
-			<scope>test</scope>
-		</dependency>
+
 
 	</dependencies>
 
