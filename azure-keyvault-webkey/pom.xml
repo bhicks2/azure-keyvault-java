@@ -45,7 +45,7 @@
 	</developers>
 
 	<dependencies>
-    <!-- Jackson Dependencies -->
+    <!-- Jackson dependencies -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
@@ -59,7 +59,7 @@
 			<artifactId>jackson-annotations</artifactId>
 		</dependency>
     
-    <!-- Other Compile Dependencies -->
+    <!-- Other compile dependencies -->
 		<dependency>
 			<groupId>commons-codec</groupId>
 			<artifactId>commons-codec</artifactId>
