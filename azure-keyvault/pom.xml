@@ -62,7 +62,6 @@ the MIT License. See License.txt in the project root for license information. --
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
-      <version>3.4</version>
     </dependency>
     <dependency>
       <groupId>joda-time</groupId>
@@ -87,7 +86,6 @@ the MIT License. See License.txt in the project root for license information. --
     <dependency>
       <groupId>io.reactivex</groupId>
       <artifactId>rxjava</artifactId>
-      <version>1.2.4</version>
     </dependency>
     <dependency>
       <groupId>com.microsoft.rest</groupId>
@@ -127,7 +125,6 @@ the MIT License. See License.txt in the project root for license information. --
     <dependency>
       <groupId>commons-codec</groupId>
       <artifactId>commons-codec</artifactId>
-      <version>1.10</version>
     </dependency>
     <dependency>
       <groupId>com.microsoft.azure</groupId>
@@ -148,7 +145,6 @@ the MIT License. See License.txt in the project root for license information. --
 		<dependency>
 			<groupId>com.microsoft.azure</groupId>
 			<artifactId>azure-client-runtime</artifactId>
-			<version>[1.1.0,2.0.0)</version>
 		</dependency>
 		<dependency>
 			<groupId>com.microsoft.azure</groupId>
@@ -159,12 +155,10 @@ the MIT License. See License.txt in the project root for license information. --
 		<dependency>
 			<groupId>com.microsoft.azure</groupId>
 			<artifactId>azure-keyvault-cryptography</artifactId>
-			<version>1.1.1</version>
 		</dependency>
 		<dependency>
 			<groupId>com.microsoft.azure</groupId>
 			<artifactId>azure-keyvault-webkey</artifactId>
-			<version>1.1.0</version>
 		</dependency>
     
 		<!-- Test dependencies -->
