@@ -64,6 +64,7 @@
     <dependency>
     	<groupId>com.microsoft.azure</groupId>
     	<artifactId>azure-keyvault</artifactId>
+      <version>1.1.1</version>
     </dependency>
     
     <!-- Other Microsoft Azure Dependencies -->
@@ -108,16 +109,16 @@
     </dependency>
     <dependency>
 			<groupId>com.microsoft.azure</groupId>
-			<artifactId>azure</artifactId>
+			<artifactId>adal4j</artifactId>
 			<scope>test</scope>
 		</dependency>
     <dependency>
-    	<groupId>com.microsoft.azure</groupId>
-    	<artifactId>adal4j</artifactId>
-    	<scope>test</scope>
-    </dependency>
+			<groupId>com.microsoft.azure</groupId>
+			<artifactId>azure</artifactId>
+			<scope>test</scope>
+		</dependency>
     
-    <!-- Other Deendencies -->
+    <!-- Other Dependencies -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

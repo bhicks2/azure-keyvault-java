@@ -80,7 +80,6 @@ the MIT License. See License.txt in the project root for license information. --
     <dependency>
       <groupId>com.microsoft.rest</groupId>
       <artifactId>client-runtime</artifactId>
-      <version>1.6.1</version>
     </dependency>
     
     <!-- Jackson Dependencies -->
