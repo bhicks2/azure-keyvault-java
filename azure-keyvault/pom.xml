@@ -248,7 +248,7 @@ the MIT License. See License.txt in the project root for license information. --
 				<version>2.22.0</version>
           			<configuration>
 			            <additionalClasspathElements>
-			              <additionalClasspathElement>${basedir}/azure-keyvault/target/azure-keyvault-${version}.jar</additionalClasspathElement>
+			              <additionalClasspathElement>${basedir}/azure-keyvault/target/azure-keyvault-${project.version}.jar</additionalClasspathElement>
 			            </additionalClasspathElements>
 			          </configuration>
 			</plugin>
