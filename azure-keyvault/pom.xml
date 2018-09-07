@@ -157,6 +157,12 @@ the MIT License. See License.txt in the project root for license information. --
 			<groupId>com.microsoft.azure</groupId>
 			<artifactId>azure-mgmt-keyvault</artifactId>
 			<scope>test</scope>
+			<exclusions>
+				<exclusion>
+					<groupId>com.microsoft.azure</groupId>
+					<artifactId>azure-keyvault</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
     <dependency>
 			<groupId>com.microsoft.azure</groupId>
@@ -235,6 +241,16 @@ the MIT License. See License.txt in the project root for license information. --
 					<source>1.7</source>
 					<target>1.7</target>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<version>2.22.0</version>
+          			<configuration>
+			            <additionalClasspathElements>
+			              <additionalClasspathElement>${basedir}/azure-keyvault/target/azure-keyvault-${version}.jar</additionalClasspathElement>
+			            </additionalClasspathElements>
+			          </configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
