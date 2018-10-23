@@ -6,7 +6,7 @@ the MIT License. See License.txt in the project root for license information. --
 	<parent>
 		<groupId>com.microsoft.azure</groupId>
 		<artifactId>azure-keyvault-parent</artifactId>
-		<version>1.1.1</version>
+		<version>1.1.2</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
@@ -245,7 +245,7 @@ the MIT License. See License.txt in the project root for license information. --
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-failsafe-plugin</artifactId>
-				<version>2.22.0</version>
+				<version>2.19.1</version>
           			<configuration>
 			            <additionalClasspathElements>
 			              <additionalClasspathElement>${basedir}/azure-keyvault/target/azure-keyvault-${project.version}.jar</additionalClasspathElement>
